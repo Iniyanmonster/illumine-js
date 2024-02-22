@@ -202,7 +202,9 @@ function submit_to_DB(){
         remarks : remarks_val
     })
 
-    location.reload()
+    setTimeout(function(){
+        location.reload()
+    },5000)
 }
 
 
