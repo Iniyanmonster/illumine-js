@@ -158,7 +158,7 @@ function collect_data_and_check(e){
     }
     if(active){
         toastList[1].show()
-        submit_to_DB()
+        setTimeout(function(){submit_to_DB()},5000);
     }
     else{
         toastList[0].show()
